@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <title>HANGMAN</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+  </head>
+
+  <body>    
+    <div id="wrapper">
+      <h1 class="title">HANGMAN</h1>
+      <h3 class="dreams">Marvel Vs Capcom 2</h3>
+    </div>
+
+    <div id="container">
+      <h2 id="music"></h2>
+    
+      <div id="band-div"><img src="assets/images/mvc2.png" alt="Hangman"></div>
+      <div id="game-section">
+        <p>Press any key to get started!</p>
+        <div>
+          <h3 class="section-title">WINS</h3>
+          <div id="wins"></div>
+        </div>
+        
+        <div id="current-word-section">
+          <h3 class="section-title">CURRENT WORD</h3>
+          <div id="current-word"></div>
+        </div>
+
+        <div id="guesses-remaining-section">
+          <h3 class="section-title">NUMBER OF GUESSES REMAINING</h3>
+          <div id="guesses-remaining"></div>
+        </div>
+
+        <div id="guessed-letters-section">
+          <h3 class="section-title">LETTERS ALREADY GUESSED</h3>
+          <div id="guessed-letters"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+</html>

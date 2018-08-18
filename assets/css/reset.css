@@ -1,0 +1,50 @@
+@import url("http://fonts.googleapis.com/css?family=Electrolize");
+@import url("http://fonts.googleapis.com/css?family=Monoton");
+@import url("http://fonts.googleapis.com/css?family=Righteous");
+@import url("http://fonts.googleapis.com/css?family=Candal");
+@import url("http://fonts.googleapis.com/css?family=Baloo+Bhai");
+
+body {
+  position: relative;
+  color: #fff;
+  background: lightskyblue;
+}
+
+* {
+  font-family: "Baloo Bhai";
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.title {
+  position: absolute;
+  margin: 0;
+  font-family: "Monoton", sans-serif;
+  font-size: 150px;
+  line-height: 1;}
+
+.title::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding-right: 300px;
+ 
+}
+
+.dreams {
+  position: absolute;
+  z-index: 20;
+  margin: 0;
+  margin-top: 200px;
+  margin-left: 200px;
+  font-family: "Electrolize";
+  font-size: 100px;
+  color: yellow;
+  filter: drop-shadow(2px 2px 20px gold);
+  -webkit-text-stroke: 1px gold;
+}
+
+.windows .dreams {
+  -webkit-text-stroke: 4px gold;
+}
